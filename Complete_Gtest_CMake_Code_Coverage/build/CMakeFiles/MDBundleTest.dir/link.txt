@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -fprofile-arcs -ftest-coverage -fprofile-abs-path CMakeFiles/MDBundleTest.dir/src/main.cpp.o CMakeFiles/MDBundleTest.dir/src/header.cpp.o CMakeFiles/MDBundleTest.dir/gtestsuit/tests_gtest/header.cc.o -o MDBundleTest  -lgcov lib/libgtest_main.a lib/libgmock.a lib/libgtest.a -lgcov 
