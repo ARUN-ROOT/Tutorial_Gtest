@@ -1,5 +1,10 @@
 # Tutorial_Gtest
 
+# Basic Understanding
+# Read First
+https://www.geeksforgeeks.org/gtest-framework/
+
+
 # installing Gtest on Ubuntu from Command Line and Source
 
 https://www.youtube.com/watch?v=6dqFqh3UbPY
