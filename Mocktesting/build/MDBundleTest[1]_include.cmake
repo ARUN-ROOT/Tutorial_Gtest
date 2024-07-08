@@ -1,0 +1,5 @@
+if(EXISTS "/home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/Mocktesting/build/MDBundleTest[1]_tests.cmake")
+  include("/home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/Mocktesting/build/MDBundleTest[1]_tests.cmake")
+else()
+  add_test(MDBundleTest_NOT_BUILT MDBundleTest_NOT_BUILT)
+endif()

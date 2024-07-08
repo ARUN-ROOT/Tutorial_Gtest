@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest_gtest_lib.a CMakeFiles/test_gtest_lib.dir/MockAddInterfaceTest.cc.o
+/usr/bin/ranlib libtest_gtest_lib.a

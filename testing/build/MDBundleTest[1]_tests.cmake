@@ -1,0 +1,5 @@
+add_test([=[MyTest.DefaultBehavior]=]  /home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/testing/build/MDBundleTest [==[--gtest_filter=MyTest.DefaultBehavior]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/testing/build/test_output/MyTest.DefaultBehavior.xml]==])
+set_tests_properties([=[MyTest.DefaultBehavior]=]  PROPERTIES WORKING_DIRECTORY /home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/testing/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MyTest.SpecificExpectation]=]  /home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/testing/build/MDBundleTest [==[--gtest_filter=MyTest.SpecificExpectation]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/testing/build/test_output/MyTest.SpecificExpectation.xml]==])
+set_tests_properties([=[MyTest.SpecificExpectation]=]  PROPERTIES WORKING_DIRECTORY /home/t0101u7/05_UnitTest_Tutorial/Tutorial_Gtest/testing/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  MDBundleTest_TESTS MyTest.DefaultBehavior MyTest.SpecificExpectation)

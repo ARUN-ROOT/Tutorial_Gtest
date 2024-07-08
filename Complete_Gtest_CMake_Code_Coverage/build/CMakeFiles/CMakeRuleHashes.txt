@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-1be5bb19a8d72ff77003722e94200c77 CMakeFiles/MDBundleTest_coverage
-56d05675ecae516e47ee6aaf43002e75 CMakeFiles/MDBundleTest_coverage_xml
